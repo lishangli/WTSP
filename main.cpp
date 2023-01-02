@@ -3,7 +3,7 @@
 #include<bitset>
 using namespace std;
 #define N 9999
-int x[10005],y[5005],r[1005];
+int x[1005],y[5005],r[1005];
 int c[1005][1005];
 int totalNum = 0;
 struct timespec ts1,ts2;
@@ -359,26 +359,6 @@ void greedy_ratio(int C)
 }
 
 int main(int argc,char *argv[]){
-    // cout<<"旅行家需要游历多少个城市？："<<endl;
-    // int n;
-    // cin>>n;
-    // //建立二维数组模拟邻接矩阵
-    // int **graph=new int* [n+1];
-    // for(int i=1;i<=n;i++)
-    //     graph[i] = new int[n+1];
-    // for(int i=1;i<=n;i++){
-    //     for(int j=1;j<=n;j++){
-    //         cout<<"输入邻接矩阵graph["<<i<<"]["<<j<<"]的权："<<endl;
-    //         cin>>graph[i][j];
-    //     }
-    // }
-    // cout<<"旅行家现在在第几个城市？"<<endl;
-    // int location;
-    // cin>>location;
-    // TSP(n,graph,location);   //TSP求解
-    //test
-    //cout<<"error!";
-    //cout<<argv[1]<<argv[2]<<endl;
     totalNum = data(argv[1],argv[2]);
     //cout<<totalNum<<endl;
     int C=atoi(argv[3]);
