@@ -3,6 +3,8 @@ case1=$1
 N=$2
 C=$3
 echo ${case1}
+echo ${N}
+echo ${C}
 python3 case.py ${case1}".in" ${N}
 # python3 case.py case1.in 12
 # python3 case.py case2.in 13

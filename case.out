@@ -1,33 +1,33 @@
 --------------------------------------
 Naive Algorithm
 Number of V:     10
-Max Reward:      553
-Path Cost:       579
-Min cost:        305
-run time is 24.376101ms
+Max Reward:      601
+Path Cost:       505
+Min cost:        257
+run time is 23.591400ms
 --------------------------------------
 min cost:0
 Dynamic Programming Algorithm
-Max Reward:      553
-Path Cost：      305
-Path：1->4->8->2->9->3->10->6->5->7->1
-run time is 4.104900ms
+Max Reward:      601
+Path Cost：      257
+Path：1->5->8->7->2->10->4->9->3->6->1
+run time is 3.339900ms
 --------------------------------------
 Nearest Greedy Result: 
-Path: 1<-7<-4<-8<-2<-9<-3<-10<-5<-6<-1
-Max Reward:      553
-Path Cost:       325
+Path: 1<-5<-8<-7<-10<-4<-2<-9<-3<-6<-1
+Max Reward:      601
+Path Cost:       275
 run time is 0.001900ms
 --------------------------------------
 Reward Greedy Result: 
-Path: 1<-8<-7<-4<-3<-10<-6<-9<-5<-2<-1
-Max Reward:      553
-Path Cost:       489
-run time is 0.001800ms
+Path: 1<-10<-6<-4<-3<-8<-7<-2<-5<-9<-1
+Max Reward:      601
+Path Cost:       517
+run time is 0.001700ms
 --------------------------------------
 Ratio Greedy Result: 
-Path: 1<-7<-4<-8<-2<-3<-10<-5<-6<-9<-1
-Max Reward:      553
-Path Cost:       337
-run time is 0.002200ms
+Path: 1<-6<-3<-9<-4<-10<-2<-5<-8<-7<-1
+Max Reward:      601
+Path Cost:       305
+run time is 0.014800ms
 --------------------------------------
